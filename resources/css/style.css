@@ -1,0 +1,49 @@
+/*----------- NAVBAR ---------------*/
+.icon-bar{
+	background-color: #74DBDD;
+	margin-top: 25px;
+}
+
+#navbar-items li a:link, #navbar-items li a:visited{
+	color: #969696;
+	font-size: 120%;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 0.7px;
+	margin-top: 25px;
+	margin-left: 20px;
+	transition: color 0.2s;
+}
+
+#navbar-items li a:active, #navbar-items li a:hover{
+	color: #74DBDD;
+}
+
+#navbar-items li a:active:after, #navbar-items li a:hover:after{
+	content: ".";
+	font-size: 30px;
+    display: block;
+    margin: 0 auto;
+    width: 10%;
+}
+
+.navbar-brand:link, .navbar-brand:visited{
+	position: absolute;
+	right: 10%;
+	color: #74DBEE;
+	font-size: 140%;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+	margin-top: 25px;
+	transition: color 0.2s;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+	color: #00C6CD;
+}
+
+.nav li a:focus, .nav li a:hover {
+        text-decoration: none;
+        background-color: transparent !important;
+}
