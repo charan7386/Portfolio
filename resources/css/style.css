@@ -1,5 +1,25 @@
+body{
+	overflow-x: hidden;
+}
+
 .row{
 	padding-left: 15px; 
+}
+
+section{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.section-titles{
+	text-transform: uppercase;
+	background-image: linear-gradient(120deg, #f6d365 30%, #fda085 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 300%;
+	/*border: 1px red solid;*/
+	font-weight: 400;	
+	margin-bottom: 1%;
 }
 
 /*----------- NAVBAR ---------------*/
