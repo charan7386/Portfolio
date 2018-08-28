@@ -16,7 +16,7 @@
   <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
 </head>
 <body>
-	<header>
+	<header id="home">
 		<nav class="navbar navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
@@ -29,10 +29,9 @@
 		    </div>
 		    <div class="collapse navbar-collapse" id="myNavbar">
 		      <ul class="nav navbar-nav" id="navbar-items">
-		        <li><a href="#">Home</a></li>
+		        <li><a href="#home">Home</a></li>
 		        <li><a href="#interests">Interests</a></li>
-		        <li><a href="#skills">Skills</a></li> 
-		        <li><a href="#">Projects</a></li> 
+		        <li><a href="#skills">Skills</a></li>
 		        <li><a href="#education">Education</a></li> 
 		        <li><a href="#contact">Contact</a></li> 
 		      </ul>
@@ -56,7 +55,7 @@
 		</div>
 		<div class="row" style="margin-top: 50px">
 			<div class="col-sm-2"></div>
-			<div class="col-sm-6"><a href="#" class="hero-button">View my Resume</a></div>
+			<div class="col-sm-6"><a href="https://drive.google.com/drive/my-drive?ogsrc=32" class="hero-button">View my Resume</a></div>
 			<div class="col-sm-4"></div>
 		</div>
 		<div class="row" style="margin-top: 11%">
@@ -219,11 +218,12 @@
 		 </div>
 		 <div class="container" style="margin-top: 5%">
 		 	<center>
-		 		<a href="#"><ion-icon name="logo-facebook" class='social-icon' style='color:#3b5999'></ion-icon></a>
-		 		<a href="#"><ion-icon name="logo-linkedin" class='social-icon' style='color:#0077B5'></ion-icon></a>
-		 		<a href="#"><ion-icon name="logo-github" class='social-icon' style='color:#34465d'></ion-icon></a>
-		 		<a href="#"><ion-icon name="logo-instagram" class='social-icon' style='color:#e4405f'></ion-icon></a>
-		 		<a href="#"><ion-icon name="logo-twitter" class='social-icon' style='color:#55acee'></ion-icon></a>
+		 		<a href="https://www.facebook.com/charan.sai.50746"><ion-icon name="logo-facebook" class='social-icon' style='color:#3b5999'></ion-icon></a>
+		 		<a href="https://in.linkedin.com/in/charan-sai-gummadavalli-90ba19142"><ion-icon name="logo-linkedin" class='social-icon' style='color:#0077B5'></ion-icon></a>
+		 		<a href="https://github.com/charan7386"><ion-icon name="logo-github" class='social-icon' style='color:#34465d'></ion-icon></a>
+		 		<a href="https://www.instagram.com/charan_sai_g/"><ion-icon name="logo-instagram" class='social-icon' style='color:#e4405f'></ion-icon></a>
+		 		<a href="https://twitter.com/charan7386"><ion-icon name="logo-twitter" class='social-icon' style='color:#55acee'></ion-icon></a><br>
+		 		<p style="font-size: 140%;color: #000; margin-top: 2px;">&#60; /&#62; || Charan Sai</p>
 		 	</center>
 		 </div>
 	</section>
@@ -239,5 +239,16 @@
 		  });
 		});
 	</script>
+
+	<script type="text/javascript">
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+     }, 500);
+});
+	</script>
+
 </body>
 </html>
