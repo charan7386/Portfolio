@@ -12,10 +12,11 @@
   <link rel="stylesheet" type="text/css" href="resources/css/style.css">
   <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
   <link rel="stylesheet" type="text/css" href="resources/css/style_skills.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style_education.css">
 </head>
 <body>
 	<header>
-		<nav class="navbar">
+		<nav class="navbar navbar-fixed-top">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
 		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -63,6 +64,7 @@
 			<div class="col-sm-1"></div>
 		</div>
 	</header>
+	<!-- Skills Section -->
 	<section>
 		<div class="row">
 			<div class="col-sm-2"></div>
@@ -82,7 +84,67 @@
 			<div class="chart" data-percent="80">My Sql</div>
 		</div>
 	</section>
+	<!-- Education Section -->
+	<section>
+		<div class="row">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-6"></div>
+			<div class="col-sm-4 section-titles">Education</div>
+		</div>
+		<div class="container">
+	    	<ul class="timeline">
+		        <li>
+		          <div class="timeline-badge"><i class="glyphicon glyphicon-time"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">B.Tech in Information Technology</h3>
+		              <p><i class="glyphicon glyphicon-time"></i> 2016-20</p>
+		              <p><i class="glyphicon glyphicon-education"></i> 8.91</p>
+		            </div>
+		            <div class="timeline-body">
+		              <p><i class="glyphicon glyphicon-map-marker"></i> NIT DURGAPUR</p>
+		            </div>
+		          </div>
+		        </li>
+		        <li class="timeline-inverted">
+		          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Class 12</h3>
+		              <p><i class="glyphicon glyphicon-time"></i> 2014-16</p>
+		              <p><i class="glyphicon glyphicon-education"></i> 98.2</p>
+		            </div>
+		            <div class="timeline-body">
+		              <p><i class="glyphicon glyphicon-map-marker"></i> SRI CHAITANYA, Hyderabad</p>
+		            </div>
+		          </div>
+		        </li>
+		        <li>
+		          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+		          <div class="timeline-panel">
+		            <div class="timeline-heading">
+		              <h3 class="timeline-title">Class 10</h3>
+		              <p><i class="glyphicon glyphicon-time"></i> 2014</p>
+		              <p><i class="glyphicon glyphicon-education"></i> 9.8</p>
+		            </div>
+		            <div class="timeline-body">
+		              <p><i class="glyphicon glyphicon-map-marker"></i> FROBEL'S GARDEN HIGH SCHOOL</p>
+		            </div>
+		          </div>
+		        </li>
+	    	</ul>
+		</div>
+	</section>
 	<script src='https://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js'></script>
-	<script  src="resources/js/index.js"></script>	
+	<script  src="resources/js/index.js"></script>
+	<!-- Active NavigationBar on Scroll -->
+	<script type="text/javascript">
+		$(function () {
+		  $(document).scroll(function () {
+		    var $nav = $(".navbar-fixed-top");
+		    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+		  });
+		});
+	</script>
 </body>
 </html>

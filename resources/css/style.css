@@ -28,6 +28,11 @@ section{
 	margin-top: 25px;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
 #navbar-items li a:link, #navbar-items li a:visited{
 	color: #969696;
 	font-size: 120%;
@@ -96,6 +101,7 @@ section{
 	font-size: 140%;
 	padding: 18px;
 	border-radius: 45px;
+	transition: background-image 2s;
 }
 .hero-button:hover, .hero-button:active{
 	text-decoration: none;
