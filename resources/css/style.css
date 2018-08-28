@@ -116,7 +116,6 @@ section{
 	-webkit-text-fill-color: transparent;
 	font-size: 300%;
 	text-align:right;
-	/*border: 1px red solid;*/
 	font-weight: 400;
 }
 
@@ -126,4 +125,9 @@ section{
 	-webkit-text-fill-color: transparent;
 	font-size: 300%;
 	font-weight: 400;
+}
+
+.interest-feature{
+	font-size: 120px;
+	color: #fda085;
 }
