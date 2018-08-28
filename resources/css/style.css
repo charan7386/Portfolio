@@ -4,7 +4,7 @@
 
 /*----------- NAVBAR ---------------*/
 .icon-bar{
-	background-color: #74DBDD;
+	background-color: #fda085;
 	margin-top: 25px;
 }
 
@@ -20,8 +20,8 @@
 }
 
 #navbar-items li a:active, #navbar-items li a:hover{
-	color: #74DBDD;
-	border-bottom: 2px #74DBDD solid;
+	color: #fda085;
+	border-bottom: 2px #fda085 solid;
 }
 
 /*#navbar-items li a:active:after, #navbar-items li a:hover:after{
@@ -35,7 +35,7 @@
 .navbar-brand:link, .navbar-brand:visited{
 	position: absolute;
 	right: 10%;
-	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	background: -webkit-linear-gradient(45deg,#FF512F 40%,#F09819 60%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 140%;
@@ -53,7 +53,8 @@
 
 /*    HERO TEXT       */
 .hero-text{
-	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	background-image: linear-gradient(120deg, #f6d365 30%, #fda085 70%);
+	opacity: 1.2;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	letter-spacing: 35px;
@@ -70,7 +71,7 @@
 
 /* HERO BUTTON*/
 .hero-button:link, .hero-button:visited{
-	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	background-image: linear-gradient(120deg, #f6d365 30%, #fda085 70%);
 	color: #fff;
 	font-size: 140%;
 	padding: 18px;
@@ -78,14 +79,13 @@
 }
 .hero-button:hover, .hero-button:active{
 	text-decoration: none;
-	background: -webkit-linear-gradient(60deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
-	color: #fff;
+	background-image: linear-gradient(120deg, #f6d365 40%, #fda085 60%);
 }
 
 /*BOTTOM TEXT*/
 .bottom-text{
 	text-transform: uppercase;
-	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	background-image: linear-gradient(120deg, #f6d365 30%, #fda085 70%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 300%;
@@ -95,7 +95,7 @@
 }
 
 .question-mark{
-	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	background-image: linear-gradient(120deg, #f6d365 30%, #fda085 70%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-size: 300%;
