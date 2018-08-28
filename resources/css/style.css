@@ -1,3 +1,7 @@
+.row{
+	padding-left: 15px; 
+}
+
 /*----------- NAVBAR ---------------*/
 .icon-bar{
 	background-color: #74DBDD;
@@ -17,33 +21,83 @@
 
 #navbar-items li a:active, #navbar-items li a:hover{
 	color: #74DBDD;
+	border-bottom: 2px #74DBDD solid;
 }
 
-#navbar-items li a:active:after, #navbar-items li a:hover:after{
+/*#navbar-items li a:active:after, #navbar-items li a:hover:after{
 	content: ".";
 	font-size: 30px;
     display: block;
     margin: 0 auto;
     width: 10%;
-}
+}*/
 
 .navbar-brand:link, .navbar-brand:visited{
 	position: absolute;
 	right: 10%;
-	color: #74DBEE;
+	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-size: 140%;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 900;
 	letter-spacing: 1.5px;
 	margin-top: 25px;
-	transition: color 0.2s;
-}
 
-.navbar-brand:hover, .navbar-brand:active{
-	color: #00C6CD;
 }
 
 .nav li a:focus, .nav li a:hover {
         text-decoration: none;
         background-color: transparent !important;
+}
+
+/*    HERO TEXT       */
+.hero-text{
+	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	letter-spacing: 35px;
+	font-size: 800%;
+	font-weight: 500;
+}
+.hero-text-small{
+	color: #969696;
+	letter-spacing: 3px;
+	font-size: 110%;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+/* HERO BUTTON*/
+.hero-button:link, .hero-button:visited{
+	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	color: #fff;
+	font-size: 140%;
+	padding: 18px;
+	border-radius: 45px;
+}
+.hero-button:hover, .hero-button:active{
+	text-decoration: none;
+	background: -webkit-linear-gradient(60deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	color: #fff;
+}
+
+/*BOTTOM TEXT*/
+.bottom-text{
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 300%;
+	text-align:right;
+	/*border: 1px red solid;*/
+	font-weight: 400;
+}
+
+.question-mark{
+	background: -webkit-linear-gradient(45deg,#6a82af,#6a82af 30%,#7cd3d5 70%,#7cd3d5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 300%;
+	font-weight: 400;
 }
